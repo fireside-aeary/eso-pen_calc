@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESO Penetration Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Penetration</h1>
+        <div>
+            <p>Penetration calculator for ESO, updated for U46.</p> 
+        </div>
+        <div>
+            <label>
+                <input type="checkbox" id="attribute1"> Major Breach
+            </label>
+            <label>
+                <input type="checkbox" id="attribute2"> Minor Breach
+            </label>
+            <label>
+                <input type="checkbox" id="attribute3"> Crusher (golded, infused)
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="attribute4"> Runic Sunder
+            </label>
+            <label>
+                <input type="checkbox" id="attribute5"> Crystal Weapon
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="attribute6"> Tremorscale
+            </label>
+            <label>
+                <input type="checkbox" id="attribute7"> Crimson Oath
+            </label>
+            <label>
+                <input type="checkbox" id="attribute8"> Alkosh
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="attribute9"> Velothi
+            </label>
+            <label for="gearPen">Gear Penetration Line:
+                <input type="number" id="gearPen" placeholder="Gear Penetration Line">
+            </label>
+            <label for="lightArmor">Light Armor:
+                <input type="number" id="lightArmor" placeholder="Light armor pieces">
+            </label>
+            <br>
+            <label for="herald">Herald of the Tome:
+                <input type="number" id="herald" placeholder="Herald skills">
+            </label>
+            <label>
+                <input type="checkbox" id="attribute11"> Grave Lord
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="attribute12"> Piercing
+            </label>
+            <label>
+                <input type="checkbox" id="attribute13"> Force of Nature
+            </label>
+
+            <br>
+            <label for="dwMaces">Dual Wield (maces):
+                <input type="number" id="dwMaces" placeholder="Dual Wield Maces">
+            </label>
+        </div>
+        <div>
+            <br>
+            <button id="calculateBtn">Calculate Penetration</button>
+            <h2 id="result">Penetration: </h2>
+        </div>
+    </div>
+    <script src="pen_calc.js"></script>
+</body>
+</html>
